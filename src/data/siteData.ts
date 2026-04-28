@@ -2,7 +2,6 @@ import type { LucideIcon } from 'lucide-react';
 import {
   Bath,
   Brush,
-  Hammer,
   Plug,
   CookingPot,
   Building2,
