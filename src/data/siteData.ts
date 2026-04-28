@@ -28,8 +28,8 @@ export type GalleryItem = {
 
 export const companyInfo = {
   name: 'Reformas Alba Rioja',
-  phone: '+34 600 123 456',
-  whatsappPhone: '34600123456',
+  phone: '+34 654 854 145',
+  whatsappPhone: '34654854145',
   email: 'info@reformasalbarioja.es',
   address: 'Calle Gran Vía 25, 26001 Logroño, La Rioja',
   schedule: 'Lunes a Viernes · 08:30 - 19:00'
