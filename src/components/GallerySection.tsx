@@ -8,8 +8,7 @@ export function GallerySection() {
         <div>
           <h2 className="text-3xl font-bold text-brand-900 sm:text-4xl">Proyectos y acabados</h2>
           <p className="mt-2 max-w-xl text-slate-600">
-            Zona preparada para mostrar fotos reales de trabajos finalizados. De momento incluye imágenes de
-            referencia para visualizar el estilo.
+            Una selección de trabajos inspirados en reformas reales, con acabados cuidados y estética contemporánea.
           </p>
         </div>
       </div>
