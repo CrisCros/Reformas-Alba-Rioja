@@ -8,6 +8,7 @@
 
 body {
   font-family: var(--font-body), system-ui, sans-serif;
+  @apply bg-slate-50 text-slate-900;
 }
 
 h1,
@@ -22,5 +23,5 @@ h4 {
 }
 
 .card-surface {
-  @apply rounded-2xl border border-blue-100 bg-white/95 shadow-soft backdrop-blur;
+  @apply rounded-3xl border border-blue-100/80 bg-white/95 shadow-soft backdrop-blur;
 }

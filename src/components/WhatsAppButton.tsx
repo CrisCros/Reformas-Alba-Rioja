@@ -2,7 +2,8 @@ import { MessageCircle } from 'lucide-react';
 import { companyInfo, whatsappMessage } from '@/data/siteData';
 
 export function WhatsAppButton() {
-  const href = `https://wa.me/${companyInfo.whatsappPhone}?text=${whatsappMessage}`;
+  const whatsappPhone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || companyInfo.whatsappPhone;
+  const href = `https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${whatsappMessage}`;
 
   return (
     <a
