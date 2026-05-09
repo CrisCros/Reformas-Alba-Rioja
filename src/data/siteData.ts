@@ -48,8 +48,8 @@ export const heroSlides: Slide[] = [
     alt: 'Salón moderno reformado con acabados premium'
   },
   {
-    src: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Cocina contemporánea blanca y azul'
+    src: 'https://images.pexels.com/photos/35493881/pexels-photo-35493881.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    alt: 'Interior renovado moderno con cocina abierta y luz natural'
   },
   {
     src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80',
@@ -92,7 +92,7 @@ export const services: Service[] = [
     title: 'Pladur y tabiquería',
     description: 'Creamos nuevas distribuciones, falsos techos y soluciones en pladur con acabados limpios y precisos.',
     icon: Brush,
-    image: 'https://images.unsplash.com/photo-1595514535215-8b5cd34af515?auto=format&fit=crop&w=900&q=80'
+    image: 'https://images.pexels.com/photos/36035072/pexels-photo-36035072.jpeg?auto=compress&cs=tinysrgb&w=900'
   }
 ];
 
@@ -102,11 +102,11 @@ export const galleryItems: GalleryItem[] = [
     alt: 'Espacio interior moderno y luminoso'
   },
   {
-    src: 'https://images.unsplash.com/photo-1617104551722-3b2d513664c8?auto=format&fit=crop&w=1000&q=80',
+    src: 'https://images.pexels.com/photos/36777569/pexels-photo-36777569.jpeg?auto=compress&cs=tinysrgb&w=1000',
     alt: 'Detalle de cocina reformada con isla'
   },
   {
-    src: 'https://images.unsplash.com/photo-1616627452094-a9f8ef1c70f9?auto=format&fit=crop&w=1000&q=80',
+    src: 'https://images.pexels.com/photos/9976128/pexels-photo-9976128.jpeg?auto=compress&cs=tinysrgb&w=1000',
     alt: 'Salón minimalista tras reforma'
   },
   {
