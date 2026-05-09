@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { services } from '@/data/siteData';
 
 export function ServiceCards() {
@@ -13,12 +14,18 @@ export function ServiceCards() {
         {services.map((service) => {
           const Icon = service.icon;
           return (
-            <article key={service.title} className="card-surface p-6">
-              <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
-                <Icon className="h-6 w-6" />
-              </span>
-              <h3 className="text-lg font-semibold text-brand-900">{service.title}</h3>
-              <p className="mt-2 text-sm text-slate-600">{service.description}</p>
+            <article key={service.title} className="card-surface overflow-hidden p-0">
+              <div className="relative h-44 w-full">
+                <Image src={service.image} alt={service.title} fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent" />
+              </div>
+              <div className="p-6">
+                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-700 shadow-sm">
+                  <Icon className="h-6 w-6" />
+                </span>
+                <h3 className="text-lg font-semibold text-brand-900">{service.title}</h3>
+                <p className="mt-2 text-sm text-slate-600">{service.description}</p>
+              </div>
             </article>
           );
         })}

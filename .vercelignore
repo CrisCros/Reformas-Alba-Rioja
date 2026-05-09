@@ -1,0 +1,21 @@
+# Do not upload installed dependencies or local build/cache folders to Vercel
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+**/out/
+build/
+dist/
+
+# Local Vercel state and logs
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local-only files
+.env
+.env*.local
+.DS_Store
