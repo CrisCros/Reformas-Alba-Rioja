@@ -4,6 +4,8 @@
 
 :root {
   color-scheme: light;
+  --font-body: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: 'Montserrat', 'Avenir Next', 'Segoe UI', Arial, sans-serif;
 }
 
 body {

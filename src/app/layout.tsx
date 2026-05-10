@@ -1,16 +1,5 @@
 import type { Metadata } from 'next';
-import { Montserrat, Inter } from 'next/font/google';
 import './globals.css';
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-heading'
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-body'
-});
 
 export const metadata: Metadata = {
   title: 'Reformas Alba Rioja | Reformas Profesionales en La Rioja',
@@ -28,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${montserrat.variable} ${inter.variable} bg-slate-50 text-slate-900 antialiased`}>
+      <body className="bg-slate-50 text-slate-900 antialiased">
         {children}
       </body>
     </html>
